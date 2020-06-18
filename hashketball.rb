@@ -223,13 +223,6 @@ def big_shoe_rebounds
         big=x[:shoe]
         answer=x[:rebounds]
       end
-    end
-  end
-    game_hash[game_hash.keys[count]][:players].each do |key,value|
-      if value.eql?(player)
-        answer=game_hash[game_hash.keys[count]][:players][:points]
-      end
-    end
     count+=1
   end
   answer
