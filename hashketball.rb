@@ -223,6 +223,7 @@ def big_shoe_rebounds
         big=x[:shoe]
         answer=x[:rebounds]
       end
+    end
     count+=1
   end
   answer
